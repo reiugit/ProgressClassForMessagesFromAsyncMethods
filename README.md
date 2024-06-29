@@ -6,4 +6,4 @@
 * The caller then calls the async method with the Progress<T> instance as an argument.
 * The async method uses the Report method and sends the payload as an argument.
 * The Progress instance then forwards the payload to the previous defined handler.
-* The predefined handler Processes the payload depending on the requirements.
+* This previous defined handler Processes the payload depending on the requirements.
