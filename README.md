@@ -1,4 +1,6 @@
-# Progress<T> class for messages from async methods to the caller
+# Progress<T> class for messages from async methods
+
+## The caller of async methods can receive these mesages.
 
 * The caller creates a Progress<T> instance with a handler for the reported data.
 * The caller then calls the async method with the Progress<T> instance as an argument.
